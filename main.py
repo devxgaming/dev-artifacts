@@ -13,7 +13,7 @@ from discord import Webhook, RequestsWebhookAdapter
 
 class Config:
     def __init__(self):
-        self.url = 'https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/' # url to check for linux
+        self.url = 'https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/' # url to check for linux don't change it
         self.path = '/root/gta/fx-server/'  # your alpine folder path
         self.backup = 'alpine'  # don't change here.
         self.discord = '*******webhook********',
