@@ -13,16 +13,15 @@ from discord import Webhook, RequestsWebhookAdapter
 
 class Config:
     def __init__(self):
-        self.url = 'https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/' # url to check for linux don't change it
+        self.url = 'https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/' # url to check for linux
         self.path = '/root/gta/fx-server/'  # your alpine folder path
         self.backup = 'alpine'  # don't change here.
-        self.discord = '*******webhook********'
-        self.enableDiscord = True  # False, to stop discord log.
+        self.discord = '*******webhook********',
     
     def send(self, message):
-        if self.enableDiscord:
-            webhook = Webhook.from_url(str(self.discord), adapter=RequestsWebhookAdapter())
-            webhook.send(message)
+        webhook = Webhook.from_url(str(self.discord), adapter=RequestsWebhookAdapter())
+        webhook.send(message)
+        # requests.post(config.discord, data=data)
 
 config = Config()
 
