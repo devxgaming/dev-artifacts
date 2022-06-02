@@ -2,7 +2,7 @@
 Python fivem artifacts auto update for linux server only.
 
 # python 3.6+ required
-install python from linux from: https://www.python.org/<br>
+install python for linux from: https://www.python.org/<br>
 
 # libraries required
 
