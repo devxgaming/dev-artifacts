@@ -9,6 +9,7 @@ install python for linux from: https://www.python.org/<br>
 1- pip install requests<br>
 2- pip install beautifulsoup4<br>
 3- pip install discord.py<br>
+4- pip install pymysql
 
 <br><br>
 
