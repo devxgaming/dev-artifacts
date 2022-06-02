@@ -1,7 +1,7 @@
 # this script it's for Fivem server, to update server artifacts using Python language.
 
 # this script has written by DevX Gaming#1255
-from sqlite3 import adapt
+
 import requests
 from bs4 import BeautifulSoup
 from DevSqlite3.core import Database, Table
